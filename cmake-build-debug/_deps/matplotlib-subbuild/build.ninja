@@ -1,0 +1,198 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: matplotlib-populate
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/raghavendrans/Documents/Raghav's$ /University$ of$ Illinois/AE$ 597$ -$ Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/
+
+#############################################
+# Utility command for matplotlib-populate
+
+build matplotlib-populate: phony CMakeFiles/matplotlib-populate CMakeFiles/matplotlib-populate-complete matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-done matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" -B"/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/matplotlib-populate
+
+build CMakeFiles/matplotlib-populate | ${cmake_ninja_workdir}CMakeFiles/matplotlib-populate: phony CMakeFiles/matplotlib-populate-complete
+
+
+#############################################
+# Custom command for CMakeFiles/matplotlib-populate-complete
+
+build CMakeFiles/matplotlib-populate-complete matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-done | ${cmake_ninja_workdir}CMakeFiles/matplotlib-populate-complete ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-done: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/CMakeFiles" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/CMakeFiles/matplotlib-populate-complete" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-done"
+  DESC = Completed 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-build" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build"
+  DESC = No build step for 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure: CUSTOM_COMMAND matplotlib-populate-prefix/tmp/matplotlib-populate-cfgcmd.txt matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-build" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-configure"
+  DESC = No configure step for 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-gitinfo.txt matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/tmp/matplotlib-populate-gitclone.cmake" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download"
+  DESC = Performing download step (git clone) for 'matplotlib-populate'
+  pool = console
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-build
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-build" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install"
+  DESC = No install step for 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir: CUSTOM_COMMAND
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/tmp/matplotlib-populate-mkdirs.cmake" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-mkdir"
+  DESC = Creating directories for 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-patch"
+  DESC = No patch step for 'matplotlib-populate'
+  pool = console
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-install
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-build" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-test"
+  DESC = No test step for 'matplotlib-populate'
+  restat = 1
+
+
+#############################################
+# Custom command for matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update
+
+build matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update | ${cmake_ninja_workdir}matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-update: CUSTOM_COMMAND matplotlib-populate-prefix/src/matplotlib-populate-stamp/matplotlib-populate-download
+  COMMAND = cd "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-src" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P "/Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild/matplotlib-populate-prefix/tmp/matplotlib-populate-gitupdate.cmake"
+  DESC = Performing update step for 'matplotlib-populate'
+  pool = console
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/raghavendrans/Documents/Raghav's /University of Illinois/AE 597 - Research/axbycz_probabilistic_method/cmake-build-debug/_deps/matplotlib-subbuild
+
+build all: phony matplotlib-populate
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt matplotlib-populate-prefix/tmp/matplotlib-populate-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt matplotlib-populate-prefix/tmp/matplotlib-populate-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
